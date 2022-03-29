@@ -1,0 +1,49 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: #909cac;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+header{
+    background-color: #ecdab9; 
+    padding: 20px 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 27px;
+}
+
+.tab{
+    margin-left: 40%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 250px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.tab th{
+    background-color: #ecdab9;
+    padding: 6px 0px;
+}
+tbody{
+    background-color: #cec3c8;
+}
+
+.tab td{
+    padding: 4px 0px;
+}
+
+p{
+    color: #ffffff;
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+}
