@@ -1,5 +1,4 @@
 *{
-   
    margin: 0px;
    padding: 0px;
 }
@@ -7,6 +6,15 @@
 #contenedor_head{
     display: flex;
     flex-direction: column;
+}
+#contenedor_main{
+    margin: 0% 25% 0 25%;
+}
+#contenedor_main img{
+    margin-top:2%;
+}
+#contenedor_main p{
+    margin:2% 0 2% 0;
 }
 
 #bloque0{
@@ -16,23 +24,26 @@
 
 #bloque1{
     text-align: end;
-    background-color: gray;
+    background-color: #949292;
     padding: 2vh;
+}
+#bloque1 a{
+    text-decoration: none;
 }
 
 #Ht{
-    background-color: green;
-    height: 123.4px;
-    width: 123.4px;
+    height: 94.9px;
+    width: 94.9px;
 }
 #Cs{
-    background-color: green;
-    height: 128px;
-    width: 128px;
+    height: 106.6px;
+    width: 106.6px;
 }
 
-.contenedor_pie{
+#contenedor_pie{
     display: flex;
     flex-direction: row;
-    background-color: aqua;
+    background-color: #949292;
+    justify-content: center;
+    margin-top: 2%;
 }
