@@ -1,0 +1,38 @@
+*{
+   
+   margin: 0px;
+   padding: 0px;
+}
+
+#contenedor_head{
+    display: flex;
+    flex-direction: column;
+}
+
+#bloque0{
+    height: 100px;
+    width: 174.5px;
+}
+
+#bloque1{
+    text-align: end;
+    background-color: gray;
+    padding: 2vh;
+}
+
+#Ht{
+    background-color: green;
+    height: 123.4px;
+    width: 123.4px;
+}
+#Cs{
+    background-color: green;
+    height: 128px;
+    width: 128px;
+}
+
+.contenedor_pie{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+}
