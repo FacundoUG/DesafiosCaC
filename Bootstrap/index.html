@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>BOOTSTRAP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="CSS/style.css" rel="stylesheet">
+        <!-- BOOTSTRAP CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- BOOTSTRAP CSS -->
+    </head>
+    <body>
+    
+        <header>
+            <!-- Barra nav con busqueda -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Codo a codo</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">Desactivado</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+            </nav>
+            <!-- Barra nav con busqueda -->
+        </header>
+        <main>
+            <div id="cards" class="container-fluid">
+                <!-- Card 1 -->
+                <div class="card">
+                    <img src="IMG/HTML.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">titulo 1</h5>
+                        <p class="card-text">Contenido de la card</p>
+                        <p class="card-text"><small class="text-muted">Actualizado hace 1 min</small></p>
+                    </div>
+                 </div>
+                 <!-- Card 1 -->
+
+                 <!-- Card 2 -->
+                 <div class="card">
+                    <img src="IMG/CSS3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Titulo 2</h5>
+                        <p class="card-text">Contenido de la card</p>
+                        <p class="card-text"><small class="text-muted">Actualizado hace 1 min</small></p>
+                    </div>
+                 </div>
+                 <!-- Card 2 -->
+                
+                 <!-- Card 3 -->
+                 <div class="card">
+                    <img src="IMG/Bootstrap.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Titulo 3</h5>
+                        <p class="card-text">Contenido de la card</p>
+                        <p class="card-text"><small class="text-muted">Actualizado hace 1 min</small></p>
+                    </div>
+                 </div>
+                 <!-- Card 3 -->
+            </div>
+            <div id="formu" class="container-fluid">
+                 <!-- Form + boton -->
+                 <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">Nunca comparta su mail</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Verificar</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                 </form>
+                 <!-- Form + boton -->
+            </div>  
+        </main>
+
+        <!-- BOOTSTRAP JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!-- BOOTSTRAP JS -->
+    </body>
+</html>

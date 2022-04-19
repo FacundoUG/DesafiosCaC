@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#cards{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
