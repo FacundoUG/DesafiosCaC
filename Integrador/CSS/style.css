@@ -2,19 +2,40 @@
     margin: 0;
     padding: 0;
 }
-
-.navbar-brand{
+#Contenedor{
     display: flex;
-    flex-direction: column;
-}
-
-#Nav_cont{
+    flex-direction: row;
     background-color: #303030;
-}
-#Icon{
-    margin-left: 7%;
-}
-#Icon a{
-    margin-left: -4%;
+    gap: 16%;
 }
 
+#Nav_izq{
+    display: flex;
+    flex-direction: row;
+    margin-left: 24%;
+}
+#Nav_izq:hover{
+    cursor: default;
+}
+
+#Nav_izq img{
+   width: 140px;
+   height: 80px;
+}
+
+#Nav_izq p{
+    margin-top: 8%;
+    margin-left: -6%;
+    color: white;
+}
+#Nav_der .nav-link{
+    color:#8C8B8B;
+}
+
+#Nav_der #act{
+    color: white;
+}
+
+#Nav_der #second_op{
+    color: #24AC45;
+}
