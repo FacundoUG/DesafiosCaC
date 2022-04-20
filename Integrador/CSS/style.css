@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand{
+    display: flex;
+    flex-direction: column;
+}
+
+#Nav_cont{
+    background-color: #303030;
+}
+#Icon{
+    margin-left: 7%;
+}
+#Icon a{
+    margin-left: -4%;
+}
+
