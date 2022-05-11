@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#Contenedor{
+    display: flex;
+    flex-direction: row;
+    background-color: #303030;
+    gap: 16%;
+}
+
+#Nav_izq{
+    display: flex;
+    flex-direction: row;
+    margin-left: 24%;
+}
+#Nav_izq:hover{
+    cursor: default;
+}
+
+#Nav_izq img{
+   width: 140px;
+   height: 80px;
+}
+
+#Nav_izq p{
+    margin-top: 8%;
+    margin-left: -6%;
+    color: white;
+}
+#Nav_der .nav-link{
+    color:#8C8B8B;
+}
+
+#Nav_der #act{
+    color: white;
+}
+
+#Nav_der #second_op{
+    color: #24AC45;
+}
+
+#cards{
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 3%;
+    text-align: center;
+    height: 12em;
+    width: 60em;
+}
+
+#cards h3{
+    padding-top: 25px;
+}
+
+#Txt_O{
+    text-align: center; 
+    justify-content: center;
+}
+
+#DP{
+    display: grid;
+    margin-left: 13%;
+    margin-right: 11%;
+    grid-template-columns: 49% 50%;
+    gap: 1%;
+}
+
+#correo{
+    margin-left: 13%;
+    margin-right: 11%;
+    margin-top: -3%;
+}
+
+#tickets{
+    text-align: left;
+    display: grid;
+    margin-left: 13%;
+    margin-right: 11%;
+    grid-template-columns: 49% 50%;
+    gap: 1%;
+}
+
+#cantidad{
+    margin-left: 13%;
+    margin-right: 11%;
+    margin-top: 35px;
+}
+
+#pagar{
+    margin-top: 35px;
+    width: 76%;
+    margin-left: 13%;
+    margin-right: 11%;
+    background-color: RGBA(103,175,235,0.66);
+    color: #0778D7;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+#disabledTextInput{
+    background:#4085C0;
+    color: white; 
+}
+
+#botones button{
+    background-color: #3DC72F;
+    border: none;
+    margin-top: 2%;
+    width: 49.6%;
+}
+
+#botones{
+    margin-left: 13%;
+    margin-right: 11%;
+}
+
+#pie{
+    margin-top: 20px;
+    background:linear-gradient(#165285,#4085C0);
+}
+#pie a{
+    color: white;
+    text-align: center;
+}
+
+#pie_a{
+    margin-left: 14.2%;
+}
+
+
+
+
+
+
