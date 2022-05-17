@@ -88,25 +88,26 @@
                       </div>
 
                     <div id="tickets">
-                        <div>
+                        <div id="cant_cont">
                             <label for="Cantidad" class="form-label">Cantidad</label>
                             <input type="number" class="form-control" id="Cantidad" placeholder="Cantidad">
                         </div>
                         <div >
                             <label for="Select" class="form-label">Categoria</label>
                             <select id="Select" class="form-select">
-                              <option>Estudiante</option>
-                              <option>Trainee</option>
-                              <option>Junior</option>
+                              <option value="1">Estudiante</option>
+                              <option value="2">Trainee</option>
+                              <option value="3">Junior</option>
                             </select>
-                          </div>
+                        </div>
                     </div>
                 </div>
                 
-                <input id="pagar" class="form-control" type="text" value="Total a pagar: $" disabled readonly>
+                <h6 id="pagar" class="form-control">Total a pagar $...</h6>
+                
                 <div id="botones">
-                    <button id="borrar" type="button" class="btn btn-success">Borrar</button>
-                    <button id="resumen" type="button" class="btn btn-success">Resumen</button>
+                    <button id="borrar" type="button" class="btn btn-success" onclick="borrarM();">Borrar</button>
+                    <button id="resumen" type="button" class="btn btn-success" onclick="Resum();">Resumen</button>
                 </div>
             </div>
         </main>
